@@ -1,1 +1,8 @@
-print("Ella no te ama")
+def f(x):
+    a=(3*x)+5
+    return a
+def g(x):
+    b=x**2
+    return b
+a=f(g(5))
+print(a)
